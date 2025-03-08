@@ -2,7 +2,7 @@
 
 This is a simple K-Means clustering library written in JavaScript. It includes an implementation of the K-Means++ initialization algorithm and silhouette scoring to determine the best number of clusters.
 
----
+
 
 ## Features
 
@@ -11,7 +11,7 @@ This is a simple K-Means clustering library written in JavaScript. It includes a
 - Centroid calculation
 - Silhouette scoring to optimize the number of clusters
 
----
+
 
 ## Installation
 
@@ -19,7 +19,7 @@ This is a simple K-Means clustering library written in JavaScript. It includes a
 npm install k-means-clustering
 ```
 
----
+
 
 ## Usage
 
@@ -45,7 +45,7 @@ console.log('Centroids:', centroids);
 console.log('Clusters:', clusters);
 ```
 
----
+
 
 ### 2. Find Best K Using Silhouette Score
 
@@ -60,24 +60,21 @@ console.log('Best Centroids:', bestResult.centroids);
 console.log('Best Clusters:', bestResult.clusters);
 ```
 
----
+
 
 ### 3. Utility Functions
 
 - `calculateCentroid(cluster)` – Computes the centroid of a cluster.
 - `initalizeKMeans(vectors, k)` – Initializes centroids using K-Means++ method.
 
----
+
 
 ## Error Handling
 
-This library checks for the following potential errors:
+Currently error handling has not been implemented.
 
-- Vectors must have dimensions greater than 0.
-- Vectors must be of the same size.
-- `k` must be greater than 0 and less than or equal to the number of vectors.
-
----
+Please ensure that vectors are of the same dimension (not 0).
+k should be a valid value for the number of vectors 
 
 ## Example
 
@@ -99,7 +96,7 @@ console.log(result.centroids); // [[4, 5], [9, 10]]
 console.log(result.clusters); // [[[1, 2], [3, 4], [5, 6]], [[8, 9], [10, 11]]]
 ```
 
----
+
 
 ## License
 
