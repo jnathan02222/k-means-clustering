@@ -7,8 +7,6 @@ This is a simple K-Means clustering library written in JavaScript. It includes a
 ## Features
 
 - K-Means clustering with K-Means++ initialization
-- Efficient squared Euclidean distance calculation
-- Centroid calculation
 - Silhouette scoring to optimize the number of clusters
 
 
