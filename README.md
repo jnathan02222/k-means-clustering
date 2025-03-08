@@ -14,7 +14,7 @@ This is a simple K-Means clustering library written in JavaScript. It includes a
 ## Installation
 
 ```bash
-npm install k-means-clustering
+npm install k-means-silhouette
 ```
 
 
